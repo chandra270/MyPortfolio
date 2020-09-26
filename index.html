@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">portfolio</a>
+    <div class="toggle"></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#academics">Academics</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#goals">Goal</a></li>
+    </ul>
+    </header>
+
+
+
+  <section id="home" class="bgpic">
+    <div class="textbx">
+      <h2>HEY I'M<br><span>CHANDRA ANIL</span></h2>
+      <h3>I'M AN EDITOR <br><br></h3>
+      <a href="#about" class="btn" class="about">About Me</a>
+    </div>
+    <div class="sm">
+      <a style="padding-top:20px;" href="https://www.instagram.com/chandra._.anil/?hl=en"><i  class="fab fa-instagram" ></i></a>
+      <a href="https://twitter.com/ChandraAnil10"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/chandra270"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/chandra-anil-445b5418b/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </section>
+
+ <section  class="about">
+ <div class="heading">
+   <h2 >About Me</h2>
+ </div>
+ <div id="about" class="content">
+   <div>
+     <p>Hi I am Chandra Anil, hailing from kochi. <br> I am a BTech undergraduate at School of engineering, CUSAT.<br><br>My keen interest is in coding and
+       I have great passion in photography and editing.<br>I love travelling and I have always tried to capture those real moments on reel.
+     <br> click on the check out to visit my profile.</p>
+       <a href="https://www.instagram.com/mypas.sion/?hl=en" class="btn" id="about" class="checkout">check out</a>
+   </div>
+
+     <img src="_Lightroom .jpg" alt="image" width="30%">
+
+ </div>
+ </section>
+ <section class="bgpic2">
+ <div id="academics" class="academics">
+   <div class="heading">
+     <h2>Academics</h2>
+   </div>
+  <div class="academicsbox">
+   <div class="imgschool"><img src="welcome-img-2.jpg" alt="school" width="106%"></div>
+   <div class="imgclg"> <img src="soe.jpg" alt="cusat" width="90%"></div>
+
+    <h4>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today"</h4>
+    <p>I did my schooling in Chinmaya Vidyala Vaduthala, kochi.<br>Now pursuing BTech in Information Technology at school of engineering,CUSAT.
+    </p>
+  </div>
+ </div>
+
+ <section id="skills" class="skills">
+  <div class="heading">
+    <h2>Skills</h2>
+  </div>
+  <div class="contentsk">
+    <h4>Programming languages I know:</h4>
+    <li>c</li>
+    <li>c++</li>
+    <li>HTML & CSS</li>
+    <li>javascript</li>
+  </div>
+ </section>
+</section>
+<section class="bgpic3">
+ <section id="goals" class="Goal">
+      <div class="heading">My Goal </div>
+      <div class="contentg">
+        <p>My aim is to become an Ethical Hacker and to contribute my expertise to Nation's Safety and Security through Defence service.
+           I would like to explore the different areas in the new era of upcoming technologies.
+        I'm looking forward to seek more knowledge about ethical hacking and ML. </p>
+      </div>
+ </section>
+</section>
+ <script type="text/javascript">
+window.addEventListener('scroll',function(){
+  var header = document.querySelector('header');
+  header.classList.toggle('sticky',window.scrollY > 0);
+});
+</script>
+<script language="javascript">
+       function autoResizeDiv()
+       {
+           document.getElementById('home').style.height = window.innerHeight +'px';
+       }
+       window.onresize = autoResizeDiv;
+       autoResizeDiv();
+   </script>
+  </body>
+</html>
